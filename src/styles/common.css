@@ -1,0 +1,23 @@
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.icon_link svg path {
+  transition: fill 0.2s;
+}
+
+.icon_link:hover > svg path {
+  fill: #bebfc2;
+}
+
+.app {
+  position: relative;
+  flex-grow: 1;
+  width: 100%;
+}

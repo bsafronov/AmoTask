@@ -1,0 +1,29 @@
+.header-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.header-logo__top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-logo__title {
+  position: absolute;
+  top: 36px;
+  font-weight: 300;
+  font-family: "Montserrat";
+  font-size: 10px;
+  line-height: 12px;
+  color: #e4e5ea;
+  max-width: 165px;
+}
+
+@media (max-width: 768px) {
+  .header-logo {
+    display: none;
+  }
+}

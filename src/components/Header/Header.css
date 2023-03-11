@@ -1,0 +1,36 @@
+.header {
+  top: 46px;
+  position: relative;
+  z-index: 100;
+}
+
+.header__inner {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+}
+
+@media (max-width: 1110px) {
+  .header__left {
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 20px 0;
+    background-color: #0e1014;
+  }
+}

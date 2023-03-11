@@ -1,0 +1,17 @@
+.header-contacts {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+
+.header-contacts__social-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+@media (max-width: 1110px) {
+  .header-contacts {
+    display: none;
+  }
+}

@@ -1,0 +1,38 @@
+.presentation {
+  display: flex;
+  flex-direction: column;
+  max-width: 362px;
+  gap: 30px;
+}
+
+.presentation__title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.presentation__title_gradient {
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.presentation__subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 275px;
+}
+
+@media (max-width: 480px) {
+  .presentation {
+    gap: 15px;
+  }
+}
