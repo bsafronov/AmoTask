@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AmoTask2/static/css/main.cdd110ab.css",
+    "main.js": "/AmoTask2/static/js/main.c49b7540.js",
+    "index.html": "/AmoTask2/index.html",
+    "main.cdd110ab.css.map": "/AmoTask2/static/css/main.cdd110ab.css.map",
+    "main.c49b7540.js.map": "/AmoTask2/static/js/main.c49b7540.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdd110ab.css",
+    "static/js/main.c49b7540.js"
+  ]
+}
